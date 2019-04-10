@@ -1,0 +1,37 @@
+*{
+    font-family: "Playfair Display";
+}
+
+.navbar {
+    opacity: 0.7;
+} 
+
+
+
+
+
+/*++++ CARDS ++++ */
+/* Modificacion a los cards */
+.cards-wrapper .card img{
+    width: 50px;
+    display: inline;
+    margin: auto; 
+
+}
+
+/* .cards-wrapper .card{
+  padding: 40px;
+
+} */
+
+
+/* ++++PARRAFOS++++ */
+
+.about-wrapper p.text-justify{
+    font-size: 13.6px;
+}
+
+.stats ul li{
+    list-style-type: none;
+    line-height: 10px;
+}
