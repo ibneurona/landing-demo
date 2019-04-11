@@ -7,96 +7,98 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Landing Eleganter</title>
 </head>
 <body>
     <!-- Navbar Section  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/logo-dark.png" class="" width="100px" alt=""></a>
-        </div>
-        <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse menu-main" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <!-- active -->
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-3 flex-column flex-lg-row">
+            <a class="navbar-brand " href="#"><img src="img/logo-dark.png" class="img-fluid "  alt=""></a>
+            <button class="navbar-toggler mt-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse menu-main justify-content-lg-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <!-- active -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Service 1
                         </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Service 1
+                            </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a href="" class="dropdown-item">Service 1 A</a>
                             <a href="" class="dropdown-item">Service 1 B</a>
                         </div>
-                        <a class="dropdown-item nav-link" href="#">Service 2</a>   
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Carousel Section  -->
-    <section class="header-wrapper row">
-        <div id="myCarouselSwipe" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner " >
-                <div class="carousel-item active">
-                    <img src="img/header.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h1 class="">Eleganter is the Most Elegant HTML5 Template</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolores voluptas commodi repellendus 
-                        laboriosam asperiores dignissimos labore libero ipsa, error incidunt sunt provident maxime officia praesentium dicta in 
-                        officiis voluptates?Placeat maxime quibusdam id debitis unde omnis impedit inventore cum architecto mollitia beatae 
-                        laboriosam necessitatibus hic non labore at ut minus nostrum saepe officiis quisquam fugiat, magni aperiam. Nesciunt, suscipit.</p>
-                        <button type="button" class="btn btn-outline-light">Get Starter Now</button>
-                    </div>
-                    
-                </div>
-                <div class="carousel-item">
-                    <img src="img/header.jpg" class="d-block w-100s" alt="...">
-                    <div class="carousel-caption">
-                        <h1 class="">Eleganter is the Most Elegant HTML5 Template</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolores voluptas commodi repellendus 
-                        laboriosam asperiores dignissimos labore libero ipsa, error incidunt sunt provident maxime officia praesentium dicta in 
-                        officiis voluptates?Placeat maxime quibusdam id debitis unde omnis impedit inventore cum architecto mollitia beatae 
-                        laboriosam necessitatibus hic non labore at ut minus nostrum saepe officiis quisquam fugiat, magni aperiam. Nesciunt, suscipit.</p>
-                        <button type="button" class="btn btn-outline-light">Get Starter Now</button>
-                    </div>
-                </div>
+                            <a class="dropdown-item nav-link" href="#">Service 2</a>   
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <a class="carousel-control-prev" href="#myCarouselSwipe" role="button" data-slide="prev">
+        </nav>
+    <!-- Carousel Section  -->
+        <section class="header-wrapper">
+            <div id="myCarouselSwipe" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/header.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption">
+                            <h1 class="h1 my-3">Eleganter is the Most Elegant HTML5 Template</h1>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolores voluptas commodi repellendus 
+                            laboriosam asperiores dignissimos labore libero ipsa, error incidunt sunt provident maxime officia praesentium dicta in 
+                            officiis voluptates?Placeat maxime quibusdam id debitis unde omnis impedit inventore cum architecto mollitia beatae 
+                            laboriosam necessitatibus hic non labore at ut minus nostrum saepe officiis quisquam fugiat, magni aperiam. Nesciunt, suscipit.</p>
+                            <button type="button" class="btn btn-outline-light">Get Starter Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/header.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption">
+                            <h1 class="h1 my-3">Eleganter is the Most Elegant HTML5 Template</h1>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolores voluptas commodi repellendus 
+                            laboriosam asperiores dignissimos labore libero ipsa, error incidunt sunt provident maxime officia praesentium dicta in 
+                            officiis voluptates?Placeat maxime quibusdam id debitis unde omnis impedit inventore cum architecto mollitia beatae 
+                            laboriosam necessitatibus hic non labore at ut minus nostrum saepe officiis quisquam fugiat, magni aperiam. Nesciunt, suscipit.</p>
+                            <button type="button" class="btn btn-outline-light">Get Starter Now</button>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev d-block" href="#myCarouselSwipe" role="button" data-slide="prev">
                 <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
                 <!-- <span class="sr-only">Previous</span> -->
-            </a>
-            <a class="carousel-control-next" href="#myCarouselSwipe" role="button" data-slide="next">
+                </a>
+                <a class="carousel-control-next d-blcok" href="#myCarouselSwipe" role="button" data-slide="next">
                 <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
                 <!-- <span class="sr-only">Next</span> -->
-            </a>
-        </div>
-    </section>
+                </a>
+            </div>
+        </section>
+    </header>
+    
 
     <!-- Cards Section  -->
-    <sectio class="cards-wrapper px-3">
-        <div class="card" style="width: 18rem;">
+    <main class="cards-wrapper px-3 py-5 d-xl-flex flex-xl-column">
+        <div class="card">
             <img src="img/error.png" class="card-img-top " alt="..." >
                 <div class="card-body">
                     <h5 class="card-title">Unlimited Color Variants</h5>
@@ -105,7 +107,7 @@
                 </div>
         </div>
     
-        <div class="card" style="width: 18rem;">
+        <div class="card">
             <img src="img/umbrella.png" class="card-img-top " alt="...">
                 <div class="card-body mb-1">
                     <h5 class="card-title">Unlimited Color Variants</h5>
@@ -114,7 +116,7 @@
                 </div>
         </div>
         
-        <div class="card" style="width: 18rem;">
+        <div class="card">
             <img src="img/house-outline.png" class="card-img-top " alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Unlimited Color Variants</h5>
@@ -122,22 +124,22 @@
                     <a href="#" class="btn btn-primary">Get more info</a>
                 </div>
         </div>                
-    </sectio>
+    </main>
     <!-- seccion de parrafos -->
     <section class="about-wrapper container-fluid py-5 px-4">
             <p class="h1 text-center">About Us</p>
             <div class="banner mx-auto"></div>
-        <div>
-            <span class="text-right text-danger"><p class="text-break">We Are</p> <p>Web Design</p> <p>Heroes</p></span>
+        <div class="container">
+            <div class="d-flex"><p>We Are</p><p>Web Design</p> <p>Heroes</p></div>
             <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur autem ea cupiditate necessitatibus vel nesciunt, possimus rerum commodi quibusdam veniam eos beatae aspernatur odio dolores in aut quas soluta corporis.</p>
             <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur et provident sapiente aspernatur, obcaecati rem doloribus totam saepe eos, laboriosam, suscipit quas nulla molestiae quos eius temporibus labore ab voluptatum.</p>     
         </div>
     </section>
 
     <!-- Seccion de servicios  -->
-    <section class="service-wrapper row">
-        <img src="img/img-12.jpg" class="col-sm-12" alt="man thinking">
-        <ul class="col-sm-12">
+    <section class="service-wrapper">
+        <img src="img/img-12.jpg" class="img-fluid" alt="man thinking">
+        <ul class="">
             <li>Unlimited Color Variante
                 <p>Duis atom Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam autem voluptates illo illum, reprehenderit blanditiis veritatis deserunt placeat animi ducimus laborum assumenda dolore! Laudantium ab libero minus necessitatibus iste porro!</p>
             </li>
@@ -183,7 +185,6 @@
     <section class="our-work container">
         <p class="h1 text-center">Our Work</p>
         <div class="banner mx-auto"></div>
-
         <ul class="">
             <li class="">
                 <button type="button" class="btn btn-danger">
@@ -201,37 +202,38 @@
                 </button>
             </li>
         </ul>
-        <div class="image-wrapper container-fluid">
-            <div class="row">
-                <img src="img/thumb-02.jpg" class="" alt="">
-                <img src="img/thumb-09.jpg" alt="">
-                <img src="img/thumb-08.jpg" alt="">
-                <img src="img/thumb-05.jpg" alt="">
-                <img src="img/thumb-06.jpg" alt="">
-                <img src="img/thumb-11.jpg" alt="">
-                <img src="img/thumb-12.jpg" alt="">
-                <img src="img/thumb-07.jpg" alt="">
+        <div class="image-wrapper">
+            <div class="">
+                <img src="img/thumb-02.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-09.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-08.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-05.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-06.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-11.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-12.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-07.jpg" class="img-fluid" alt="">
             </div>
-            <div class="row">
-                <img src="img/thumb-04.jpg" alt="">
-                <img src="img/thumb-06.jpg" alt="">
-                <img src="img/thumb-13.jpg" alt="">
-                <img src="img/thumb-05.jpg" alt="">
-                <img src="img/thumb-12.jpg" alt="">
-                <img src="img/thumb-14.jpg" alt="">
-                <img src="img/thumb-07.jpg" alt="">
-                <img src="img/thumb-10.jpg" alt="">
+            <div class="">
+                <img src="img/thumb-04.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-06.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-13.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-05.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-12.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-14.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-07.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-10.jpg" class="img-fluid" alt="">
             </div>
-            <div class="row">
-                <img src="img/thumb-03.jpg" alt="">
-                <img src="img/thumb-01.jpg" alt="">
-                <img src="img/thumb-09.jpg" alt="">
-                <img src="img/thumb-14.jpg" alt="">
-                <img src="img/thumb-07.jpg" alt="">
-                <img src="img/thumb-13.jpg" alt="">
-                <img src="img/thumb-11.jpg" alt="">
-                <img src="img/thumb-04.jpg" alt="">
+            <div class="">
+                <img src="img/thumb-03.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-01.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-09.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-14.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-07.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-13.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-11.jpg" class="img-fluid" alt="">
+                <img src="img/thumb-04.jpg" class="img-fluid" alt="">
             </div>
+            
         </div>
     </section>
 

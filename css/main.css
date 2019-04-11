@@ -3,6 +3,56 @@
     list-style-type: none;
 }
 
+/* ++++Imagen responsiva de el nvabar++++ */
+@media only screen and (max-width:320px){
+    .navbar-brand img{
+        width:256px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .navbar-brand img{
+        width:300px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .navbar-brand img{
+        width:150px;
+    }
+}
+/* ************ */
+
+
+/* +++Ajuste de imagen de header+++ */
+@media only screen and (max-width:320px){
+    .header-wrapper .carousel-item img{
+        height:364px;
+    }
+}
+
+@media only screen and (min-width:375px){
+    .header-wrapper .carousel-item img{
+        height:350px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .header-wrapper .carousel-item img{
+        height:720px;
+        background-repeat: no-repeat ;
+        background-size: contain;
+    }
+}
+/* ************************************ */
+
+.header-wrapper .carousel-caption{
+    margin-bottom: 20%;
+}
+
+.cards-wrapper .card{
+    
+}
 
 section .banner{
     border-radius: 1px;
