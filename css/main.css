@@ -3,16 +3,21 @@
     list-style-type: none;
 }
 
-/* ++++Imagen responsiva de el nvabar++++ */
+/* ++++LOGO responsivo de el nvabar++++ */
+
 @media only screen and (max-width:320px){
     .navbar-brand img{
-        width:256px;
+        width:250px;
+        margin-top: 2;
+
     }
 }
 
 @media only screen and (max-width:768px){
     .navbar-brand img{
-        width:300px;
+        box-sizing: border-box;
+        width:320px;
+        margin: 5%;
     }
 }
 
@@ -21,12 +26,14 @@
         width:150px;
     }
 }
-/* ************ */
+/* ****************************************** */
 
 
 /* +++Ajuste de imagen de header+++ */
+
 @media only screen and (max-width:320px){
     .header-wrapper .carousel-item img{
+        box-sizing: border-box;
         height:364px;
     }
 }
@@ -34,6 +41,7 @@
 @media only screen and (min-width:375px){
     .header-wrapper .carousel-item img{
         height:350px;
+        /* transform: scale(2); */
     }
 }
 
@@ -46,13 +54,26 @@
 }
 /* ************************************ */
 
-.header-wrapper .carousel-caption{
-    margin-bottom: 20%;
+/*++++ CARDS ++++ */
+/* Modificacion a los cards */
+.cards-wrapper .card img{
+    width: 48px;
 }
 
-.cards-wrapper .card{
-    
+/* Ajuste de botones de las cards  */
+.cards-wrapper .card-body .btn{
+    box-sizing: border-box;
+    width: 120px;
+    border-radius: 0;
+    font-size: 12px;
 }
+
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #002633;
+}
+/******************************************/
+
 
 section .banner{
     border-radius: 1px;
@@ -60,17 +81,6 @@ section .banner{
     background-color: #C81010;
     width: 60px;
     height: 2px;
-}
-
-
-
-/*++++ CARDS ++++ */
-/* Modificacion a los cards */
-.cards-wrapper .card img{
-    width: 50px;
-    display: inline;
-    margin: auto; 
-
 }
 
 
