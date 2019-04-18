@@ -75,6 +75,21 @@
 /******************************************/
 
 
+/* ++++PARRAFOS++++ */
+.about-wrapper{
+    padding: 120px;
+}
+.about-wrapper p.title{
+    font-size: 50px;
+    color: black;
+}
+.about-wrapper .red-text{
+    font-size: 28px;
+    color: #C81010;
+}
+
+/* *************************************** */
+/* BANNER DEBAJO DE LOS TITULOS */
 section .banner{
     border-radius: 1px;
     border: #C81010;
@@ -82,13 +97,7 @@ section .banner{
     width: 60px;
     height: 2px;
 }
-
-
-/* ++++PARRAFOS++++ */
-
-.about-wrapper p.text-justify{
-    font-size: 13.6px;
-}
+/*  */
 
 
 .footer-wrapper .main-flag{
